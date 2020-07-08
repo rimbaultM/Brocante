@@ -1,0 +1,63 @@
+.fondaccueil{
+  height: 30vw;
+  width: 100vw;
+  background-image: url("https://res.cloudinary.com/dc9pm7uj8/image/upload/v1593618350/sillery-evenement-brocante_lpywug.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center;
+
+
+
+}
+.brocante{
+    // position:absolute;
+    // max-width: 100%;
+
+    // top: -30%;
+  }
+
+.content{
+
+  padding: 30px 5vw;
+  text-align: center;
+  background-color: #f4f4f4;
+  h2{
+    font-family: 'Architects Daughter', cursive;
+    color:#cdbf82;
+  }
+
+}
+.imagebrocante{
+  margin: 30px 100px;
+  column-gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    object-fit:cover;
+  }
+  img:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+
+
+figure {
+  width: 400px;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+figure:hover+span {
+  bottom: -36px;
+  opacity: 1;
+}
+
+
+
